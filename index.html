@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        body {
+            background-color: #D5E1EF;
+            height: 100%;
+            margin: 0;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        main > section {
+            width: min-content;
+            background-color: white;
+            border-radius: 20px;
+            padding: 16px 16px 40px 16px;
+            box-shadow: 0 25px 25px 0 rgb(0 0 0 / 4.77%);
+        }
+
+        main > section > img {
+            width: 288px;
+            height: 288px;
+            border-radius: 10px;
+        }
+
+        #qr-card #content {
+            padding-left: 16px;
+            padding-right: 16px;
+            font-family: "Outfit", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        #qr-card > #content > h1 {
+            text-align: center;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        #qr-card > #content > p {
+            text-align: center;
+            font-size: 15px;
+            color: #68778D;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section id="qr-card">
+        <img src="images/image-qr-code.png" alt="QR Code"/>
+
+        <section id="content">
+            <h1>Improve your front-end skills by building projects</h1>
+            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </section>
+    </section>
+</main>
+</body>
+</html>
